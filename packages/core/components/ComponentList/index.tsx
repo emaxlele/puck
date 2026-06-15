@@ -60,6 +60,7 @@ const ComponentList = ({
         <button
           type="button"
           className={getClassName("title")}
+          aria-expanded={expanded}
           onClick={() =>
             setUi({
               componentList: {
